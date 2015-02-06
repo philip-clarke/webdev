@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+body {
+    background: $paleyellow;
+    color: lighten($darkblue, 20);
+    font-family: $font-primary;
+    font-size: 1.2rem;
+    line-height: 160%
+}
+
+#{headings()} {
+    font-family: $font-secondary;
+    font-weight: normal;
+    color: $darkgray;
+    @include text_shadow($paleryellow 1px 1px);
+}
+
+h1 {
+    font-size: 2.3rem;
+    color: lighten($darkblue, 25);
+    margin-bottom: .4rem;
+    border-bottom: 1px solid $lightgray;
+    padding-top: 10px;
+}
+
+.main-left-image {
+    width: 352px;
+    height: 261px;
+    background-image: url("../../static/img/see_our_cars.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+.title-image {
+    float: left;
+    width: 300px;
+}
+.specs {
+    margin-top: 0px;
+    display: inline;
+    float: left;
+}
+
+.specs li {
+    display: inline;
+    float: left;
+    padding: 0px 40px 0px 0px;
+}
+.car-summary {
+    border: 1px solid;
+}
+article {
+    margin: 10px 0px 10px 0px; 
+    clear: both;
+}
