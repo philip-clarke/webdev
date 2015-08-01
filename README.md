@@ -11,6 +11,13 @@ Install grunt on your system
 Install the node packages
 * npm install
 
+Install Compass
+sudo gem update --system
+sudo gem install compass
+
+Install Susy
+sudo gem install susy
+
 Start grunt
 * grunt
 
